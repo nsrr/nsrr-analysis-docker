@@ -7,13 +7,13 @@ Code repository to build Docker image containing NSRR cloud library, Luna & Luna
 Container build command:
 
 ```
-docker build . -t nsrr-analysis
+docker build . -t nsrr/nsrr-analysis
 ```
 
 Container run command to use in the shell mode:
 
 ```
-docker run -it nsrr-analysis /bin/bash
+docker run -it nsrr/nsrr-analysis /bin/bash
 
 ```
 
