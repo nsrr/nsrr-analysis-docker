@@ -42,7 +42,7 @@ RUN R -e "install.packages('git2r', repos='http://cran.rstudio.com/')" \
  && R -e "install.packages('shinyFiles', repos='http://cran.rstudio.com/')" \
  && R -e "install.packages('shinydashboard', repos='http://cran.rstudio.com/')" \
  && R -e "install.packages('lubridate', repos='http://cran.rstudio.com/')" \
- && R -e "install.packages('wkb', repos='http://cran.rstudio.com/')" \ 
+ && R -e "install.packages('wkb', repos='http://cran.rstudio.com/')" \
  && R -e "install.packages('aws.s3', repos='http://cran.rstudio.com/')"
 
 
